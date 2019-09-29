@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523450001829",
+    "firebase_url": "https://analogin-15d49.firebaseio.com",
+    "project_id": "analogin-15d49",
+    "storage_bucket": "analogin-15d49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523450001829:android:c9a5ff6646b67493",
+        "android_client_info": {
+          "package_name": "com.example.android.anafyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523450001829-80b3k2463fh96guov6d6e9iuh2i78a3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.anafyp",
+            "certificate_hash": "d0c1fa25c6e5980fcc47913e14894baad0513e27"
+          }
+        },
+        {
+          "client_id": "523450001829-8dt2qb45s6iou6mqrjchbpa6glec05e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUbbhhPeeLDyF3YeT9bU7NFkesP5Vkg2o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523450001829-8dt2qb45s6iou6mqrjchbpa6glec05e2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

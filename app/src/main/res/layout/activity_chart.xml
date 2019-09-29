@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChartActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/TariffData"
+    android:text="Tariff Data Chart"
+    android:textSize="15dp"
+    android:layout_centerHorizontal="true"
+    />
+    <HorizontalScrollView
+        android:layout_below="@+id/TariffData"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <view
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            class="im.dacer.androidcharts.LineView"
+            android:id="@+id/line_view" />
+    </HorizontalScrollView>
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:text="Upload Speed: Green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Upload"
+        />
+    <TextView
+        android:layout_above="@+id/Upload"
+        android:text="Download Speed: Grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Download"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:id="@+id/Time"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/Service"
+        android:paddingBottom="180dp"
+        />
+
+<TextView
+    android:layout_above="@+id/Download"
+    android:text="Ping : Black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Ping"
+    />
+<TextView
+    android:paddingBottom="50dp"
+    android:layout_above="@+id/Ping"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Service"
+    android:text="Service Availability: YES"
+    />
+<Button
+    android:id="@+id/UploadData"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Upload Data"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+
+    />
+    <TextView
+
+        android:layout_above="@+id/Service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Packet"
+        android:text="Packet Loss: 0.3"
+        />
+</RelativeLayout>

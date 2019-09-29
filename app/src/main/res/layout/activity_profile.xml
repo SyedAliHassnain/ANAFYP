@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <EditText
+        android:id="@+id/etProfileAge"
+        android:hint="Age:"
+        android:layout_below="@+id/etProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:id="@+id/etProfileName"
+        android:hint="Name:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <EditText
+        android:id="@+id/etProfileEmail"
+        android:hint="Email:"
+        android:layout_below="@+id/etProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/BtnProfileEdit"
+        android:layout_width="wrap_content"
+        android:text="Edit"
+        android:layout_below="@+id/etProfileAge"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnChangePassword"
+        android:layout_width="wrap_content"
+        android:text="Change Password"
+        android:layout_below="@+id/BtnProfileEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

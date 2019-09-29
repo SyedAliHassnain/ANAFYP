@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile">
+
+    <EditText
+        android:id="@+id/etNameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        />
+    <EditText
+        android:id="@+id/etEmailUpdate"
+        android:hint="UserEmail"
+        android:layout_below="@+id/etNameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etAgeUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Age"
+        android:layout_below="@+id/etEmailUpdate"/>
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAgeUpdate"
+        />
+
+
+</RelativeLayout>
